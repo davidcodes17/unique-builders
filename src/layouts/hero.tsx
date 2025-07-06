@@ -39,7 +39,7 @@ const buttonVariant = {
 const Hero = () => {
   return (
     <motion.div
-      className="lg:pt-20 pt-30"
+      className="lg:pt-20 pt-15"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
