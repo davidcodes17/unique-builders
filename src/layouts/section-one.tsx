@@ -30,7 +30,7 @@ const SectionOne = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto">
         <motion.div
           className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-stretch"
@@ -51,7 +51,7 @@ const SectionOne = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.6, ease: "easeInOut" }}
-                  className="w-full h-full object-cover"
+                  className="w-full lg:h-full h-100 object-cover"
                 />
               </AnimatePresence>
               
